@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #2d2d2d;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-container {
+  max-width: 185rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.header-item {
+  display: flex;
+  column-gap: 12rem;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+}
+
+.nav-text {
+  font-weight: 500;
+  color: #2b3879;
+}
+
+.brand-logo > img {
+  display: block;
+  width: 20rem;
+  object-fit: cover;
+}
+
+.nav-item > i {
+  font-size: 1.4rem;
+  color: #9b9b9b;
+  opacity: 0.8;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+}
+
+.btn-signup,
+.btn-login {
+  display: block;
+  width: 10rem;
+  height: 4.8rem;
+  border-radius: 5px;
+  border: 1px solid #6c95ce;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #6c95ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  background: #6c95ce;
+  border-radius: 5px;
+  border: 0;
+  color: #ffffff;
+}
+
+/* Hero-Section */
+.hero {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-image {
+  width: 50rem;
+}
+
+.hero-image > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 5.4rem;
+  line-height: 8.1rem;
+  color: #2b3879;
+}
+
+.hero-subtitle {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+
+.hero-list {
+  margin: 3rem 0;
+}
+
+.hero-list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.btn-start-hosting {
+  display: block;
+  width: 17.2rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffcf00;
+  border-radius: 5px;
+  filter: drop-shadow(0px 6px 12px rgba(134, 116, 39, 0.3));
+  font-weight: 500;
+  font-size: 1.6rem;
+}
