@@ -177,6 +177,12 @@ ul {
   margin-bottom: 1.2rem;
 }
 
+.hero-list-item > img {
+  display: block;
+  width: 2.4rem;
+  object-fit: cover;
+}
+
 .btn-start-hosting {
   display: block;
   width: 17.2rem;
@@ -326,6 +332,12 @@ ul {
   align-items: center;
 }
 
+.services-item-img > img {
+  display: block;
+  width: 3.6rem;
+  object-fit: cover;
+}
+
 .services-item-title {
   font-weight: 600;
   font-size: 1.6rem;
@@ -402,6 +414,12 @@ ul {
   align-items: center;
 }
 
+.website-builder-services-img > img {
+  display: block;
+  width: 4.3rem;
+  object-fit: cover;
+}
+
 .website-builder-services-text {
   flex: 1;
 }
@@ -459,6 +477,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clouding-services-item-img > img {
+  display: block;
+  width: 3.9rem;
+  object-fit: cover;
 }
 
 .clouding-services-item-title {
@@ -581,6 +605,12 @@ ul {
   font-size: 1.4rem;
   line-height: 2.8rem;
   text-align: center;
+}
+
+.footer-flex-payment-link > img {
+  display: block;
+  width: 5rem;
+  object-fit: cover;
 }
 
 /* Hamburger-Menu */
