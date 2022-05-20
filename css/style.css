@@ -278,3 +278,197 @@ ul {
 .search-section-domain-name {
   font-weight: 600;
 }
+
+/* Services-Section */
+
+.services {
+  padding: 5rem 0;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  text-align: center;
+  color: #2b3879;
+}
+
+.services-desc {
+  margin-top: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.services-list {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.services-item {
+  width: 26rem;
+}
+
+.services-item-img {
+  width: 6rem;
+  height: 6rem;
+  background: #f0f1f1;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-item-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #2b3879;
+  margin: 2rem 0 1rem 0;
+}
+
+.services-item-desc {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+/* Website-Builder */
+
+.website-builder {
+  margin-bottom: 5rem;
+  padding: 0 15px;
+}
+
+.check-container {
+  max-width: 39rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.website-builder-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.website-builder-image {
+  width: 76.7rem;
+}
+
+.website-builder-image > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.website-builder-item {
+  width: 46rem;
+}
+
+.website-builder-title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  color: #2b3879;
+}
+
+.website-builder-desc {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.website-builder-services {
+  display: flex;
+  column-gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.website-builder-services-img {
+  width: 6rem;
+  height: 6rem;
+  background: #f0f1f1;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-builder-services-text {
+  flex: 1;
+}
+
+.website-builder-services-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 3.4rem;
+  color: #2b3879;
+}
+
+.website-builder-services-desc {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+/* Clouding-Services */
+
+.clouding-services {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.clouding-services-title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  color: #2b3879;
+  text-align: center;
+}
+
+.clouding-services-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.clouding-services-item {
+  flex: 1 1 32rem;
+  width: 32rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.clouding-services-item-img {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  background: #f0f1f1;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clouding-services-item-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 3.4rem;
+  color: #2b3879;
+  margin: 1rem 0;
+}
+
+.clouding-services-item-desc {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
