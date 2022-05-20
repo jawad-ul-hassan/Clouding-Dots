@@ -630,7 +630,7 @@ ul {
   }
 
   .website-builder-image {
-    width: 55rem;
+    width: 65rem;
   }
 
   .check-container {
@@ -650,9 +650,8 @@ ul {
     cursor: pointer;
   }
 
-  .check-container {
-    max-width: 50%;
-    margin: 0;
+  .website-builder-image {
+    width: 55rem;
   }
 }
 
